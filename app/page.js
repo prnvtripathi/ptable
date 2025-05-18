@@ -14,6 +14,11 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 
+export const metadata = {
+  title: "Periodic Table",
+  description: "Explore the periodic table of elements with detailed information and visualizations.",
+};
+
 export default function Home() {
   const [activeElement, setActiveElement] = useState(null);
   const [highlightedCategory, setHighlightedCategory] = useState(null);
